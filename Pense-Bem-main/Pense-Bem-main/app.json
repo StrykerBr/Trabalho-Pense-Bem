@@ -3,13 +3,12 @@
     "name": "pense-bem-mobile",
     "slug": "pense-bem-mobile",
     "version": "1.0.0",
+    "sdkVersion": "58.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "pensebemmobile",
     "userInterfaceStyle": "automatic",
-    "ios": {
-      
-    },
+    "ios": {},
     "android": {
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
@@ -34,7 +33,9 @@
             "imageWidth": 76
           }
         }
-      ]
+      ],
+      "expo-image",
+      "expo-web-browser"
     ],
     "experiments": {
       "typedRoutes": true,
